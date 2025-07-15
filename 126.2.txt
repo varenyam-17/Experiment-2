@@ -1,0 +1,32 @@
+126.2
+exp 2
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+    int a;
+    cout<<"Enter any Integer"<<endl;
+    cin>>a;
+    char b;
+    cout<<"Enter a character"<<endl;
+    cin>>b;
+    float c;
+    cout<<"Enter a number"<<endl;
+    cin>>c;
+    string d;
+    cout<<"Enter a word"<<endl;
+    cin>>d;
+    double e;
+    cout<<"Enter a big number"<<endl;
+    cin>>e;
+    bool f;
+    cout<<"Enter 1 or 0"<<endl;
+    cin>>f;
+    cout<<"Float= "<<c<< " and the size is "<<sizeof(c)<<" bytes"<<endl;
+    cout<<"Integer= "<<a<< " and the size is "<<sizeof(a)<<" bytes"<<endl;
+    cout<<"Character= "<<b<< " and the size is "<<sizeof(b)<<" bytes"<<endl;
+    cout<<"Double= "<<e<< " and the size is "<<sizeof(e)<<" bytes"<<endl;
+    cout<<"String= "<<d<< " and the size is "<<sizeof(d)<<" bytes"<<endl;
+    cout<<"Boolean= "<<f<< " and the size is "<<sizeof(f)<<" bytes"<<endl;
+}    
