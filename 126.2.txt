@@ -1,5 +1,4 @@
-126.2
-exp 2
+Varenyam Singh 24070123126
 #include<iostream>
 #include<string>
 using namespace std;
